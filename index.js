@@ -28,7 +28,7 @@ const Calculator = {
   }
 }
 
-let actionApplyer = function(start, array) {
+ function actionApplyer(start, array) {
   let a = start
   for (let i = 0; i < array.length; i++ ){
     a = array[i](a)
