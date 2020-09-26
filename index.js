@@ -35,6 +35,5 @@ let actionApplyer = function(start, array) {
   }
 
   return a
-}
-else return (13*2+1000)%7
+
 }
