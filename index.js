@@ -28,13 +28,13 @@ const Calculator = {
   }
 }
 
-function actionApplyer(start,arr){
-//  a=0
-//  let a=start
-//start=0
-//  arr=[]
-  if (arr=""){
-return start
+let actionApplyer = function(start, array) {
+  let a = start
+  for (let i = 0; i < array.length; i++ ){
+    a = array[i](a)
+  }
+
+  return a
 }
 else return (13*2+1000)%7
 }
