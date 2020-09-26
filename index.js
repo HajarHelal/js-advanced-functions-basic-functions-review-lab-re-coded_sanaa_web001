@@ -7,6 +7,7 @@ return`This Saturday, I want to ${activity}!`
 }
 
 function wrapAdjective(init="*"){
+<<<<<<< HEAD
   return function(adjective="a hard worker"){
       return `You are ${init}${adjective}${init}!`
   }
@@ -35,4 +36,10 @@ function actionApplyer(start,array){
 return start
 }
 else return (13*2+1000)%7
+=======
+  return function(adjective="highlight"){
+    return'you'
+  }
+
+>>>>>>> 2d9b370b5a15db97e89652513b311a7f366991f3
 }
